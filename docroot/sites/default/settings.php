@@ -779,14 +779,14 @@ $settings['entity_update_batch_size'] = 50;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
 
-if (file_exists($app_root . '/' . $site_path . '/settings.environment.php')) {
-    include $app_root . '/' . $site_path . '/settings.environment.php';
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
 }
 
-// Shared multi-site config
+# if (file_exists($app_root . '/' . $site_path . '/settings.environment.php')) {
+#     include $app_root . '/' . $site_path . '/settings.environment.php';
+# }
+
+# Shared multi-site config
 $config_directories['sync'] = '../config/default';
