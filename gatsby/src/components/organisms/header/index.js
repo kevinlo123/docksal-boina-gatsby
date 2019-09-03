@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import './style.scss'
-import Button from '@weknow/gatsby-theme-drupal-boina/src/components/atoms/button'
+import Button from '../../atoms/button'
 
 const Header = ({ scrolled, isMobile, showSidebar, darkMenu }) => (
   <div className="grid-x align-middle c-header">
@@ -34,11 +34,11 @@ const Header = ({ scrolled, isMobile, showSidebar, darkMenu }) => (
           >
             <a
               className="c-header__menu-link c-header__menu-link--cta"
-              href="/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Shadow CTA
+              Some CTA
             </a>
           </div>
         </div>
@@ -54,12 +54,12 @@ const Header = ({ scrolled, isMobile, showSidebar, darkMenu }) => (
               viewBox="0 0 480 180"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g fill="none" fillRule="evenodd">
-                <g fillRule="nonzero" fill="#2BA9E0">
+              <g fill="none" fill-rule="evenodd">
+                <g fill-rule="nonzero" fill="#2BA9E0">
                   <path d="M74.667 111.493c-15.598 0-28.248 12.68-28.248 28.316s12.65 28.316 28.248 28.316 28.248-12.68 28.248-28.316-12.65-28.316-28.248-28.316zM109.83 106.066c8.361 8.758 13.507 20.633 13.507 33.743 0 16.603-8.255 31.218-20.851 40.03 23.316-7.2 42.613-24.77 51.243-46.048 11.953-29.445.804-51.582-17.85-71.678.59 2.58.912 5.32.912 8.06-.054 17.087-11.417 31.433-26.962 35.893zM77.883 70.227c0 11.982 9.702 21.654 21.601 21.654 11.9 0 21.655-9.726 21.655-21.654 0-11.982-9.702-21.654-21.601-21.654-11.9 0-21.655 9.672-21.655 21.654z" />
                   <path d="M37.414 171.242c-7.13-8.49-11.417-19.451-11.417-31.433 0-24.985 18.707-45.564 42.88-48.412-4.127-6.018-6.592-13.325-6.592-21.17 0-20.633 16.67-37.29 37.253-37.29 1.715 0 3.377.108 4.985.323C92.355 22.728 80.188 12.036 70.593.376c4.878 51.152-46.472 32.561-65.5 79.737-12.704 31.594-1.234 70.657 32.32 91.129z" />
                 </g>
-                <g fillRule="nonzero">
+                <g fill-rule="nonzero">
                   <g fill="#FFF">
                     <path d="M463.494 90h-44.745v12.808h30.682c-4.474 19.213-18.537 35.224-37.074 41.628l-73.51-73.649c7.671-22.415 29.404-38.425 54.334-38.425 19.176 0 36.435 9.606 47.301 24.336l9.588-8.326c-12.784-17.291-33.239-28.819-56.89-28.819-33.238 0-61.363 23.696-68.395 55.077l84.376 84.536c30.682-7.685 54.333-35.864 54.333-69.166zM322.868 90.64c0 17.932 7.03 35.224 20.454 48.673 13.424 13.449 31.322 20.493 48.58 20.493L322.868 90.64z" />
                   </g>

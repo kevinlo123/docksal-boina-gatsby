@@ -7,7 +7,7 @@
 
 // Docksal DB connection settings.
 $databases['default']['default'] = [
-  'database' => 'drupal',
+  'database' => 'jenniscent',
   'username' => 'root',
   'password' => 'root',
   'host' => 'db',
