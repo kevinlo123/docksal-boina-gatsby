@@ -17,6 +17,7 @@ services:
       - HOST_GID
       - CHOKIDAR_USEPOLLING=1
       - NODE_ENV=development
+      - DRUSH_OPTIONS_URI=${VIRTUAL_HOST}
     working_dir: /var/www/gatsby
     dns:
       - ${DOCKSAL_DNS1}

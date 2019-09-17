@@ -7,7 +7,7 @@
 
 // Docksal DB connection settings.
 $databases['default']['default'] = [
-  'database' => 'jenniscent',
+  'database' => 'boina',
   'username' => 'root',
   'password' => 'root',
   'host' => 'db',
