@@ -4,6 +4,9 @@ Drupal 8 has plenty of contributed modules to help you building a headless/decou
 
 The Drupal Boina Distribution, comes with everything you need (code, configuration and even default content), all that will be added to your site during the installation process so you can start working with the Boina Gatsby Starter immediately.
 
+# copy env.dist into .env.production .env.development 
+fin init.
+
 ## Project dependencies
 
 * [git](https://git-scm.com/)
